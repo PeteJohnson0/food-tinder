@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/secret_cat');
+mongoose.connect('mongodb://localhost/food-tinder');
 
 
 const app = express();
